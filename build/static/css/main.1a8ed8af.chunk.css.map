@@ -1,1 +1,0 @@
-{"version":3,"sources":["webpack://src/App.css"],"names":[],"mappings":"AAAA,8BACE,YACF","file":"main.1a8ed8af.chunk.css","sourcesContent":[".scrollbar::-webkit-scrollbar {\r\n  display: none;\r\n}\r\n"]}
