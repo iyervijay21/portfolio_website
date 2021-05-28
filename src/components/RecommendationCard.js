@@ -30,7 +30,7 @@ function RecommendationCard(props) {
       </div>
 
       <Modal show={show} onHide={handleClose}>
-        <Modal.Header >
+        <Modal.Header className="btn btn-close" >
           <Modal.Title style={{ textAlign: "center" }}>{message}</Modal.Title>
         </Modal.Header>
         <Modal.Body style={{ textAlign: "center" }}>
@@ -39,7 +39,9 @@ function RecommendationCard(props) {
           {designation} at {company}
         </Modal.Body>
         <Modal.Footer>
-          
+          <Button  onClick={handleClose}>
+            Close
+          </Button>
         </Modal.Footer>
       </Modal>
     </>
